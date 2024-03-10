@@ -1,0 +1,32 @@
+.characterList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.material-icons{
+    font-size:15px;
+  }
+  
+  .info{
+    color: green;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .popup-info{
+    display: none;
+    position: absolute;
+    background-color:#23211e;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .info:hover .popup-info{
+    display: block;
+  }
+  
+  .info:hover p{
+    color: white;
+  }
